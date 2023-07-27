@@ -1,0 +1,528 @@
+2017-11-5:
+
+Connected original three LM399s (in same order), plus the 9 LM-399s from the laser drivers. The LM399's are:
+#1 (old)
+#2 (old)
+#3 (old)
+#4
+#5
+#6
+#7
+#8
+#9
+#10
+#11
+#12
+
+Connections:
+Black boxy banana connector: GND
+Red boxy banana connector: #1
+Black round banana connector: #2
+Red round banana connector: #3
+
+Keithley 2000 scanner channel 1: #4
+Keithley 2000 scanner channel 2: #5**
+Keithley 2000 scanner channel 3: #6
+Keithley 2000 scanner channel 4: #7
+Keithley 2000 scanner channel 5: #8
+Keithley 2000 scanner channel 6: #9
+Keithley 2000 scanner channel 7: #10
+Keithley 2000 scanner channel 8: #11*
+Keithley 2000 scanner channel 9: #11
+Keithley 2000 scanner channel 10: #12
+
+* Keithley 2000 scanner channel 8 appears intermittent depending on cable position, hence connecting channel 9 to the same node.
+
+** Reference #5 appears to be open circuit on the zener pins, does not seem to heat up as much.
+
+Reference #4,#6-#12 measure around 55-60°C with the Fluke 80T-IR at the top, reference #1-#3 measure about 45-50°C.
+
+Keithley 2000 + 2000-SCAN: power on 2017-11-05 ~17.00
+12V / 1.5 A power brick connected to breadboard with 12xLM-399: Power-on: 2017-11-05 23.30
+
+2017-11-06 00.46:
+Keithley 2000 slow, digital filter off
+#1: 7.00014 V
+#2: 7.01085 V
+#3: 7.01756 V (+/- 5 LSD fluctuations)
+#4: 6.86074 V
+#5: 12.0731 V
+#6: 6.85316 V
+#7: 6.88885 V
+#8: 6.86233 V
+#9: 6.85904 V
+#10: 6.94700 V
+#11 (channel 9): 6.89717 V
+#12: 6.87168 V
+
+2017-11-06 20.00: Keithley 2000 + 2000-SCAN: power on
+2017-11-06 21.32:
+Keithley 2000 slow, digital filter off
+#1: 6.99999 V
+#2: 7.01072 V
+#3: 7.01756 V (+/- 5 LSD fluctuations)
+#4: 6.86052 V
+#5: 12.0638 V
+#6: 6.85303 V
+#7: 6.88875 V
+#8: 6.86221 V
+#9: 6.85891 V
+#10: 6.94687 V
+#11 (channel 9): 6.89705 V
+#12: 6.87174 V
+
+2017-11-07 20.00: Keithley 2000 + 2000-SCAN: power on
+2017-11-07 21.47:
+Keithley 2000 slow, digital filter off
+#1: 7.00000 V
+#2: 7.01075 V
+#3: 7.01765 V (+/- 5 LSD fluctuations)
+#4: 6.86050 V
+#5: 12.0587 V
+#6: 6.85304 V
+#7: 6.88877 V
+#8: 6.86222 V
+#9: 6.85891 V
+#10: 6.94688 V
+#11 (channel 9): 6.89705 V
+#12: 6.87187 V
+
+2017-11-09 19.30: Keithley 2000 + 2000-SCAN: power on
+Keithley 2000 slow, digital filter off
+2017-11-09 22:45
+#1: 7.00002 V
+#2: 7.01073 V
+#3: 7.01767 V (+/- 5 LSD fluctuations)
+#4: 6.86048 V
+#5: 12.0536 V
+#6: 6.85307 V
+#7: 6.88882 V
+#8: 6.86227 V
+#9: 6.85895 V
+#10: 6.94692 V
+#11 (channel 9): 6.89708 V
+#12: 6.87229 V
+
+Change in procedure: Leave banana plugs for positive leads for #1-#3
+disconnected until measurement. Then connect, and take reading after a few
+seconds, as soon as it's stable.
+
+2017-11-12 10.00: Keithley 2000 + 2000-SCAN: power on
+Keithley 2000 slow, digital filter off
+2017-11-12 23:42
+#1: 7.00006 V
+#2: 7.01078 V
+#3: 7.01772 V (+/- 5 LSD fluctuations)
+#4: 6.86046 V
+#5: 12.0504 V
+#6: 6.85307 V
+#7: 6.88881 V
+#8: 6.86227 V
+#9: 6.85892 V
+#10: 6.94690 V
+#11 (channel 9): 6.89707 V
+#12: 6.87190 V
+
+2017-11-19 12.00: Keithley 2000 + 2000-SCAN: power on
+Keithley 2000 slow, digital filter off
+2017-11-12 22:47
+#1: 7.00006 V
+#2: 7.01079 V
+#3: 7.01770 V (+/- 4 LSD fluctuations)
+#4: 6.86050 V
+#5: 12.0506 V
+#6: 6.85311 V
+#7: 6.88886 V
+#8: 6.86229 V
+#9: 6.86893 V
+#10: 6.84692 V
+#11 (channel 9): 6.89708 V
+#12: 6.87049 V
+
+2017-11-26 12.00: Keithley 2000 + 2000-SCAN: power on
+Keithley 2000 slow, digital filter off
+2017-11-26 20:12:
+#1: 7.00006 V
+#2: 7.01079 V
+#3: 7.01766 V
+#4: 6.86054 V
+#5: 12.0495 V
+#6: 6.85312 V
+#7: 6.88887 V
+#8: 6.86231 V
+#9: 6.85894 V
+#10: 6.94692 V
+#11 (channel 9): 6.89709 V
+#12: 6.86987 V
+
+2017-12-3 11.30: Keithley 2000 + 2000-SCAN: power on
+Keithley 2000 slow, digital filter off
+2017-12-3 21:02:
+#1: 7.00017 V
+#2: 7.01090 V
+#3: 7.01770 V (+/- 5 LSD noise)
+#4: 6.86060 V
+#5: 12.0629 V
+#6: 6.85318 V
+#7: 6.88889 V
+#8: 6.86232 V
+#9: 6.85894 V
+#10: 6.94693 V
+#11 (channel 9): 6.89709 V
+#12: 6.86953 V
+
+2017-12-16 12:35: Keithley 2000 + 2000-SCAN: power on
+Keithley 2000 slow, digital filter off
+2017-12-17 00:30:
+#1 measured 0.16 V initially, at least some pins were making bad contact, but case was feeling warm. Was mildly unstable immediately after (~20 LSD fluctuations).
+#1: 7.00042 V
+#2: 7.01112 V
+#3: 7.01784 V
+#4: 6.87081 V
+#5: 12.0519 V
+#6: 6.85340 V
+#7: 6.88911 V
+#8: 6.86251 V
+#9: 6.85914 V
+#10: 6.94712 V
+#11 (channel 9): 6.89729 V
+#12: 6.86895 V
+
+2017-12-17 13:30: Keithley 2000 + 2000-SCAN: power on
+Keithley 2000 slow, digital filter off
+Set up automated measurements. Reconnected some wires on breadboard, was not powered off for significant amount of time (if at all).
+
+2018-01-21 around 12.00-13.00: Move MV106 and Keithley 2000-20 around, clean up around it, move cables, put them directly on ground.
+
+2018-01-21 12.40-13.19: VI-700 R... (130 Ohm resistor to be replaced) disconnected, reference unpowered. VI-700 moved, wires moved, and powered up again at 13.19.
+
+2018-01-21 18.50-18.52: Move 3458A forward and back to its position.
+
+2019-10-08: Connected GL95206 10M to 3458A via GR874-to-BNC converters, than on one side a BNC gender changer, two BNC cables, BNC to banana adapters, connected with the non-GND pin to the DMM's two wire resistance terminals. A banana jumper lead from one of the ground pins of the BNC-to-banana plug adapters to guard, with guard floating in the DMM.
+
+2020-04-11 02:00: Keithley 2000x2, Prema 6031A, HP/KS 3458Ax2, Lambda LR-612DM and HP 6114A 15V power supplies turned on
+2020-04-12 22:45: Connected 3458Ax2 to F732A with Cat5 wires, F732A to MV106 using banana cable, K199-1 to F732A hi (negative input), MV106 hi (positive input), K199-2 to F732A thermistor input via banana jumper cables.
+2020-04-13 8:35: Discovered that K199-1 was showing overload. Cable between MV106 and K199-1 (positive terminal) had become detached from MV106. Plugged back in.
+2020-04-26 18:20: Cable from MV106 to K199, and F732A to MV106 got disconnected from MV106 for a couple of minutes. Plugged back in.
+2020-04-28 01:48: Lo binding post on 732A was not fastened. I briefly unscrewed both binding posts to remove one of the two Cat5 cables from under the binding posts.
+2020-05-03 20:46: Cable from 732A binding post to K199 was detached from 732A. Probably for a couple of hours. Plugged back in.
+2020-10-19T19:00:29: Cable from 732A lo binding post to D4910 lo binding post got detached until 2020-12-21.
+2020-12-21: Discovered that high input cable from d4910_avg_1 to k2000 was loose, and likely the reason for the intermittent and extremely high readings. Probably this was the case since pretty much the beginning of the measurement of the d4910.
+
+2022-04-19 01:..: In ks3458a1-dcv-log.csv, used D4920avg instead of D4910avg -> fixed
+GR1440 100k s/n 2312: Plugged into sense terminals, with Fluke 50cm twin-banana lead from top to force jacks (738716)
+GR1440 10k #2: Plugged into sense terminals, with Fluke 50cm twin-banana lead from back to force jacks (738716)
+GR1440 10k #3: Keithley Kelvin leads with center side plugged in sense, Fluke 50cm twin-banana lead from shield side force jacks (738716), clipped on the legs of the resistor about 1.5cm from the case
+GR1440 10k #4: Keithley Kelvin leads with center side plugged in sense, Fluke 50cm twin-banana lead from shield side force jacks (738716), clipped on the legs of the resistor about 1.5cm from the case
+GR1440 1 #6: Keithley Kelvin leads with center side plugged in sense, Fluke 50cm twin-banana lead from shield side force jacks (738716), clipped on the legs of the resistor about 1.5cm from the case
+GR1440 1 #6: Keithley Kelvin leads with center side plugged in sense, Fluke 50cm twin-banana lead from shield side force jacks (738716), with Kelvin clip one jaw inside a few mm, other outside Banana jack
+Fluke 742A: Shield connected to ground terminal. Guard open on 3458A side.
+GR1440 1M #5: Plugged into sense jacks, Fluke 50cm twin-banana lead from female terminals to force jacks (738716)
+
+Until 2022-05-01: ks3458a1-dcv-log was logging Datron 4910 avg output
+From 2022-05-02: ks3458a1-dcv-log is logging Fluke 7001 output
+
+2022-08-11: Resistor comparison at high ambient temperature (~30 degrees outside)
+8:00 UTC: Turn on ks3458a2
+10:39-10:41 UTC: Move UT330C to where most resistors are.
+~10:45 UTC: Start measuring SR104 with ks3458a
+13:25-13:27 UTC: Open lid SR104
+I removed the double banana plug from GR1440 10k #2 so I can use the Kelvin leads, as usual, because plugging banana leads in the back didn't make good contact.
+Measure SR104 thermistor with K2000:
+06:07:09 UTC: 10.05575 kOhm
+06:07:50 UTC: 10.05576
+06:08:12 UTC: 10.05577
+06:08:52 UTC: 10.05578
+06:09:54 UTC: 10.05579
+06:10:16 UTC: 10.05580
+06:10:55 UTC: 10.05581
+06:11:58 UTC: 10.05581
+06:12:20 UTC: 10.00583
+06:12:44 UTC: 10.00584
+06:13:37 UTC: 10.00585
+06:15:44 UTC: 10.00588
+07:02:32 UTC: 10.05646
+
+Measured GR1440 resistors same as 2022-04-19, except GR1440 10k #2 same as #3 and others.
+Noted that GR1440 1M (measured in 2w, sense disconnected) appeared to be drifting downward while plugged into 3458A.
+K5155 and GL95206 using shorter 30-40cm BNC cables (RG-58) and guard switch open and nothing connected to it.
+
+~02:00 ramen open, kamer koelt snel af, buiten is het 18 graden.
+
+2022-08-12
+(all times UTC)
+09:00 3458A-2 aan
+10:00 3458A-1 aan
+12:18 Move PT100 from next to UT330C on top of PLZ 300W to L&N 10k resistor
+12:53 k2000 aan
+14:28:00 Switched 3458A-2 from 100k to 10k range by hand
+
+~16:25 during measurement of SR1 the temperature probe was in LN 1400704
+
+L&N resistors that had nuts:
+10k SN 1502633
+100 SN 1501564
+1k SN 1550730
+
+21:54-21:56
+Until 21:54 the PT100 probe stayed into the P4017, despite already measuring the Guildine 95206. Before 21:56 I moved the PT100 probe to touch the shell of the GR874 connectors wedged inbetween the two connectors.
+
+23:14 moved PT100 probe back to under the handle of the PLZ 300W next to the UT330C
+
+2022-08-15 16:50:30 - 16:51:00: Moved UT330C from next to PT100 probe on PLZ300W to next to acqusition BBB machine on top of extension cord / surge suppressor.
+
+2022-08-18
+7.40 UTC 2x3458A on
+2022-08-18 7.49-7.51 UTC moved pt100 from PLZ 300W to touching the bbb next to UT330C
+8:00 Moved 5450A and turned on
+8.15 Moved all resistors on top of 5450A
+
+19:30 UTC: Turn on Fluke 510A
+
+2022-08-18: Read up on gaurding, and drew the following conclusions:
+1. Never leave guard floating. If at all possible, connect on LO side of DUT. Otherwise set switch to connect it to LO
+2. For resistors, connect to negative sense terminal unless they have a separate guard terminal (SR104). For high resistors connect shield to guard
+3. For voltage references, connect to voltage refence guard terminal if possible, or otherwise to where the LO lead is connected.
+4. For 5450A, connect to guard terminal and do not press the external guard switch.
+
+23:20 - 23:21: Moved PT100 probe from next to BBB to on top of F5450A in the middle
+
+2022-08-19
+Around 1-2am: Pt100 probe fell on the floor off 5450A 
+
+
+07:41 3458a1 acal dcv: cal value out of range 102
+07.50 3458a1 acal dcv: 205 hardware failure -- cal value out of range: 101
+Repeated attempt works
+
+I found an issue in all the resistance scripts except sr104 transfer that I
+only ran acal Ohms, and not acal dc, after 24h/1 degrees temp change. And this
+function did not set last acal date, so might have been doing acal every 15
+minutes
+
+09:43 Pt100 probe back on top of 5450A
+10:35 3458a1 acal dcv: 205,"HARDWARE FAILURE -- CAL VALUE OUT OF RANGE: 102"
+
+11:05:30 UTC: Pt100 fell on the ground
+11:06:00 UTC: Pt100 back on top of F5450A
+11:25 ag3458a1 acal dcv: 205,"HARDWARE FAILURE -- CAL VALUE OUT OF RANGE: 101"
+
+Continued with ag3458a1-acv-log script with initial acal disabled.
+
+15:30:
+ag3458a1:
+'205,"HARDWARE FAILURE -- CAL VALUE OUT OF RANGE: 102"'
+'210,"HARDWARE FAILURE -- CALIBRATION REQUIRED"'
+'101,"CALIBRATION ERROR"'
+
+18:28 - 18:30 pt100 fell and put back
+
+ag3458a1:
+205,"HARDWARE FAILURE -- CAL VALUE OUT OF RANGE: 101"; 210,"HARDWARE FAILURE -- CALIBRATION REQUIRED"; 101,"CALIBRATION ERROR"
+205,"HARDWARE FAILURE -- CAL VALUE OUT OF RANGE: 101"; 210,"HARDWARE FAILURE -- CALIBRATION REQUIRED"; 101,"CALIBRATION ERROR"
+205,"HARDWARE FAILURE -- CAL VALUE OUT OF RANGE: 102"; 210,"HARDWARE FAILURE -- CALIBRATION REQUIRED"; 101,"CALIBRATION ERROR"
+
+19:48: Changed ag3458a1 acv script to not run acal at all
+
+21:32-21:34: Pt100 fell, put back
+21:34: Briefly disconnected and reconnected Fluke 510A from mains power.
+
+22:09: Moved pt100 probe from top of 5450A to between 95206 GR connectors.
+
+Measured 95206 as follows:
+Same short BNC cables to BNC-to-banana plugs. Center plugs in input binding
+posts on 3458A. Fluke 7002 cables from both shields to guard terminal. Guard
+switch open.
+
+2022-08-20:
+00:22: Moved Pt100 back to 5450A
+00:27: Moved UT330C from next to BBB to near Pt100 on top of 5450A
+
+07:50: 3458a2 also gave error during acal DCV with Fluke 510A connected to input:
+205,"HARDWARE FAILURE -- CAL VALUE OUT OF RANGE: 102"; 210,"HARDWARE FAILURE -- CALIBRATION REQUIRED"; 101,"CALIBRATION ERROR"
+
+And 3458a1 acal DCV and AC worked fine when the lead was disconnected from the positive input.
+
+15:23:53 connected F510A back to ag3458A (temporarily disconnected for ACAL)
+
+2022-08-22
+
+12:26 Moved PT100 from inside AOIP resistor to under GR1440-7 and next to GR1440-6
+GR1400-6/GR1400-7: Had BNC to banana adapters in 3458A input connectors with 7002 cable to sense, and had shield connected to sense.
+12:52: Moved adapters so center of Kelvin leads was now sense, and banana leads went to input. Kept GR1440-7 connected.
+13:53: Dropped pt100 and put back. Still on F742A-1 under GR1440-7
+14:31-14:33: Dropped pt100 and put back
+20:52: Entered 1.01 Ohm as value for F742A instead of 1 Ohm
+
+2022-08-23
+LN 1547580 instead of L&N
+LN 1550730
+
+2022-08-24
+00:06-00:08 Removed tissue under PT100 and removed one layer under UT330C so the pt100 is directly touching HP 11103A
+02:47 pt100 fell again and put back against HP 11103
+16:40 Put PT100 in SR104 thermometer well
+16:40: SR104 measured as dut=HP 11103A, setting=10 kOhm-SR104, but I disconnected and re-connected it again, so probably no data was saved under that name.
+20:08: Moved Pt100 between GR1440-2 and -3
+22:40: Moved Pt100 to SR104
+
+2022-08-25
+00:43 Move pt100 from SR104 to GL95260
+01:18: Measured P4017 with 9520 with BNC cables to BNA-to-banana plug adapter in A/B posts, and short banana leads (not low EMF) from the shield to the E terminal.
+
+Until 1:58: Measured GL9330-100k with old nuts and steel washers
+After 1:59: Measured GL9330-100k with original nuts borrowed from GL9330-1M
+GR1440-2312: Couldn't find a way of attaching pt100 probe, so stayed on 5450A
+GR1440-5: same, though dropped probe briefly
+~3:30 cleaned GL9330-100k, GL9330-1M, F742A-1M and F742A-10 with contaclean
+04:19 Noticed that one of the two spade lugs from F510A got detached from the w4920. Reattached.
+For all resistance measurements I used the ~2m low thermal EMF 4-wire cable with guard connected to either the resistor's shield or the negative (sense) terminal. For the 2W measurements I used blue and white in the 4w cable, and connected orange and green to guard together with shield. Fpr the 95206 I used ~.5m BNC RG58 leads
+
+04:56: Moved pt100 from P4017 to Guildline 95206
+10:02: 100075.316 reading for 4w resistance was when switching to SR104
+10:47 Move ptoo to between F7001 and F510A on top of F732A2
+11:26: For D4910-[34] I made a short banana lead with alligator clip (not low EMF) from guard terminal to cable shield lug.
+F7001bat ks3458a1-dcv-log before 13:03:20: was logging -10V with positive and guard lead connected to negative terminal
+After 13:03:20: Moved guard to positive terminal together with negative lead from 3458A.
+F7001 ks3458a1-dcv-log before 14:40:38 was logging -10V with positive and guard lead connected to negative terminal
+17:51: GL9330-100k fell about 1m on the ground. Pt100 also fell. moved it under F7001
+18:18 moved Pt100 to GL9330-100k
+19:13 Started k2000-sr104-thermistor-log
+
+Up to 2022-09-09 13:15 UTC: UT330C was set to UTC+1
+14:14 UTC: Updated time to UTC.
+2022-10-31 ~22.20 UTC: GFCI tripped off, all instruments reset, F7001 continued on battery, D4910 showed red temp led (temp has been outside regulation) for cell #2
+2023-01-08 ~10.00 UTC: Power was turned off, F7001 continued on battery, D4910 showed red temp led (temp has been outside regulation) for cell #2
+2023-01-23 16:45 UTC: Moved UT-330C on top of HP 6200B above 50cm higher than before a bit away from all the turned on instruments.
+
+2023-01-22 to 2023-02-03:
+Compare Datron 4700, Fluke 5450A, Valhalla 2703 and Valhalla 2500 using HP 3458Ax2, Wavetek 4950 and Wavetek 4920. Compare with Fluke 7001 and SR104 references. Also compared voltage standards using K182 (k182-mv-log.csv)
+
+Saturday 2023-01-22:
+- [x] 4950 F7001 (vergelijken met 3458A(1) en andere 10 V standaarden)
+- [x] 4950 F7001 1V (vergelijken met 3458A(1))
+- [x] 4950 SR104 (vergelijken met 3458A(2)
+
+Tuesday 2023-01-25:
+- [x] 3458A(2) SR104
+2023-01-24 3458A(2) metingen waren zonder offset compensation
+
+Wednesday 2023-01-26:
+- [x] 3458A(2) F5450A (start with 10 kOhm, then transfer down to 1 Ohm, then transfer up to 100 MOhm, then down again to 10 kOhm, take 16 readings per value)
+- [x] 4950 SR104
+- [x] 4950 D4700 R (start with 10 kOhm)
+- [x] 4950 SR104
+- [x] 4950 F7001
+- [x] 4950 D4700A DCV
+- [x] 4950 F7001
+- [x] 3458A(1) F7001
+
+Thursday 2023-01-27:
+- [x] 3458A(1) D4700A DCV
+- [x] 3458A(1) F7001
+- [x] 4950 SR104
+- [x] 4950 F5450A (start with 10 kOhm)
+- [x] 3458A(2) SR104
+- [x] 3458A(2) D4700 R (start with 10 kOhm, then transfer down to 1 Ohm, then transfer up to 100 MOhm, then down again to 10 kOhm)
+- [x] 4950 SR104
+- [x] 4950 F5450A (start with 10 kOhm)
+
+Friday 2023-01-28:
+- [x] 4950 SR104
+- [x] 3458A(2) SR104
+- [x] 3458A(1) D4700A DCI
+- [x] 3458A(2) D4700A DCI
+- [x] 4950 D4700A DCI
+D4700 gave error OL during +10 mA (but not -10 mA) with 4950 a second after taking a sample (possibly input switching in the 4950?)
+- [x] 3458A(2) F7001
+- [x] k182 F7001
+- [x] 3458A(2) D4700A DCV
+- [x] 3458A(2) F7001
+- [x] 4950 F7001
+- [x] 3458A(2) SR104
+- [x] 4950 D4700 DCV
+- [x] 3458A(2) F5450A (start with 10 kOhm, then transfer down to 1 Ohm (including the 19 values), then transfer up to 100 MOhm, then down again to 10 kOhm)
+- [x] 4950 F7001
+- [x] k182 F7001
+- [x] 3458A(1) F7001
+- [x] 3458A(1) D4700A DCV
+
+Saturday 2023-01-29:
+- [x] Boost charge F7001 11.40 UTC-13.58 UTC
+- [x] Turn on 2703 and 2500 12.15 UTC
+- [x] k182 F7001
+- [x] 3458A(1) F7001
+- [x] k182 F7001
+
+Sunday 2023-01-30:
+- [x] 3458A(2) SR104
+- [x] Fix 10 MOhm -> 19 MOhm in ks3458a2-f5450a-sweep-with-1.9.csv
+- [x] When manual, disable dut if voltage > 20 V or current > 10 mA
+- [x] 4920 F510
+4920 v2703 until 15:04 UTC: No ground connection on Fluke 510A, remote sensing on 2703 without connecting sense
+From 15:04: Local sensing on 2703, ground connected for 510A
+Without timestamp: Until 15:47
+- [x] 4920 V2703 (start with 10V 2.4kHz -> 1 kHz -> 10 kHz)
+- [x] 4920 F510
+- [x] 4950 V2703
+4950 gives error hf intermittently. If it occurs, it will persist, but restarting the script, which resets it to DCV, and setting it back to ACV fixes it
+10 mV 1 kHz gives error hf. Lowering frequency to 900 Hz allows 4950 to read without error (frequency checked by F189
+
+Monday 2023-01-31:
+- [x] 4920 F510
+- [x] 3458A(1) F510
+- [x] 3458A(1) V2703
+- [x] 3458A(1) F510
+- [x] 4920 F510 (connected ground from 4920 to lo output on F510)
+Dinsdag:
+- [x] 4950 D4700 DCI
+- [x] 4950 V2703 + V2500 ACI
+100 uA 1 kHz always give error HF. For lower frequencies 100 uA gives errors intermittently. Higher currents don't give error.
+The overload LED on the V2500 also flashes after every sample, at least on 1 mA, so that seems to be the 2500, not the D4700.
+- [x] 4950 D4700 DCI
+- [x] 3458A(1) D4700 DCI
+- [x] 3458A(1) V2703 + V2500 ACI
+- [x] 3458A(2) D4700 DCI
+- [x] 4950 (I) 3458A1 (V) D4910 1V + V2500 DCI (short was plugging brown in back of white + black)
+- [x] 4950 D4700 DCI
+- [x] 3458A1 (I) 3458A2 (V) D4910 1V + V2500 DCI (short was a banana lead between V2500 current outputs)
+- [x] 3458A(1) D4700 DCI
+
+Wednesday 2023-02-01:
+- [x] 3458A(2) SR104
+- [x] 3458A(2) F5450A w/ 1.9
+- [x] 3458A(1) SR104
+- [x] 3458A(1) D4700 R
+
+Thursday 2023-02-02 - Friday 2023-02-03:
+- [x] 3458A(1) SR104
+- [x] 3458A(2) SR104
+- [x] 4950 SR104
+- [x] 4950 D4700 R
+- [x] 4950 SR104
+- [x] 4950 F5450A
+- [x] 4950 SR104
+- [x] acal
+- [x] 3458A(1) SR104
+- [x] 3458A(2) SR104
+- [x] 3458A(1) F5450A
+- [x] 3458A(2) D4700 R
+- [x] 3458A(2) SR104
+- [x] 3458A(1) SR104
+- [x] V2703 / V2500 uit
+
+
+2023-02-06 to 2023-02-10:
+Measure AD588 and LM399 references using K2000 with its scanner, and regulary compare to F732a3. Pt100 (k2000-20-4w-res-log.py) was on breadboard between LM399s and AD588s measured by k2000-20.
+
+2023-02-10:
+Measure Datron 4700 100 Ohms using K2000 and K2000-20 as reference for PT100 (k2000(-20)-4w-res-log.csv).
+Measure two Pt100s in direct contact taped with masking tape and wrapped in a beach towel.
+
+2023-03-02:
+D4700-10V measured by tying D4700 lo to F7001bat high, and measuring with k182 between D4700 hi and F7001bat lo
+
+2023-06-24:
+Compared voltage references. D4910-2 binding posts broke off, so measured
+D4910avg - D4910-2 by pressing the spade lug against the binding post from the
+top from the heat shrink. Check this data for drift / noise.

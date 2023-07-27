@@ -1,0 +1,1 @@
+On some ranges, the 3458A auto-ranged to 10Mohm range. E.g. R9A-R9B. This is shown as a higher noise in the readings.

@@ -1,0 +1,14 @@
+2018-03-05:
+k2000 measuring v+ (Lambda LR-613), Prema 6031A measuring v- (HP 6114)
+2018-03-07 20:33:
+k2000 measuring v- (HP 6114), Prema 6031A measuring v+ (Lambda LR-613)
+2018-03-10 09:52:
+k2000 measuring v+ (Lambda LR-613), Prema 6031A measuring v- (HP 6114)
+2018-03-24 21:22:
+Prema 6031A measuring v+ (HP 6114), k2000 measuring v- (Lambda LR-613)
+2018-03-31 10:43:
+k2000 measuring v+ (HP 6114), Prema 6031A measuring v- (Lambda LR-613)
+2018-11-19 6:51:
+power off for a minute, then on again
+2019-09-07 10:45:
+Power on +/- 15 V power supplies, 2x Keithley 2000, Prema 6031A

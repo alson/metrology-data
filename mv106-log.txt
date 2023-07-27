@@ -1,0 +1,7 @@
+2017-12-31 ~12.00-12.20: Moved MV106 and K2000 around. Switched from plugging banana leads into binding posts to plugging them into spade lug adapters, that are clamped in the binding posts.
+
+2017-12-31 13.25: Negative sense binding post was loose, so link between sense and output was not making contact. This produced values of around 10.00086V on the 3456A, rather than10.00022V. After refastening the binding post, it jumped back to 10.00022V
+
+2017-12-31 15.55: Turn on overhead fluorescent light
+
+2018-01-06 afternoon: rotate banana jacks in 3456A back and forth to remove oxidation

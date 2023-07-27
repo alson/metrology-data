@@ -1,0 +1,75 @@
+F5450A
+.999874
+1.900361
+9.99947
+18.99995
+100.0042
+190.0114
+1.000058k
+1.900070k
+10.00035k
+19.00055k
+100.0032k
+190.0048k
+1.000026M
+1.900048M
+10.00055M
+19.00096M
+99.9820M
+
+Guildline 9330-1M
+30 May 2002
+1.000 002 6 M @23°C +/- 1.22 ppm
+
+Keithley 5155
+1.00476 G date unknown, but cal sticker from March, 5, 2012
+
+Fluke 742A-1
+Measured value 1.0000012 Ohm
+Alpha -0.080 E-6
+Beta -0.032 E-6
+
+Fluke 742A-10
+Measured value 10.000002 Ohm
+Alpha -0.050
+Beta -0.048
+
+Fluke 742A-1M
+Measured value 1.0000017 MOhm
+Alpha 0.320 E-6
+Beta -0.012 E-6
+
+Guildline 95206
+9.99999899 MOhm
+
+SR1 10k
+10,000.28 Ohm
+
+GR1440-5 1M
+19 October 1965 -0.0018 initial deviation
+
+GR1440-2312 100k
+4 October 1967 +0.0011% initial deviation
+
+GR 1440-2 10k
+March 3 2007 10,051.43 Ohms at 23°C
+May 2 2010 10.051465 kOhm at 21°C
+
+Honeywell 105267 10k
+9.99959 kOhm using a specific cable
+
+L&N 1547580 1k
+999,4763 (or 9763) Ohm at 23.5 °C
+
+L&N 1501565 100
+Certified value 99.999 absolute Ohm
+
+L&N 1552616 100
+99. 99677 Ohm at 23.7°C
+
+Honeywell 105242 1k
+20 December 2016 0.9999614 kOhm
+
+L&N 1550730 1k
+1.009593 k (?)
+January, 3, 2005

@@ -1,0 +1,21 @@
+Like k2000-lm399-log, but with the Keithley 2000-20 in connected in parallel to
+the output leads of the scanner, to check if the steps observed are due to the
+Keithley 2000 or due to the scanner / breadboard setup.
+
+In addition, I increased the settling time after switching the relay to 180s
+(to achieve thermal equilibrium), so the references are sampled approximately
+every 33 minutes.
+
+Note: due to a programming error, the readings labeled -20 are also from the original Keithley 2000 up to 2018-02-04 2:30. After this, this mistake was fixed.
+
+2018-03-24 20:20:
+Switched Lambda LR613DM to negative rail, and HP 6114A to positive rail. Which means the references were powered off for a few minutes.
+
+2019-07-27 0:00:
+Power cut. Power supplies off for a couple of minutes
+
+2019-08-03 11:00:
+Power on both K2000, Prema 6031A
+
+2019-09-07 10:45:
+Power on both K2000, Prema 6031A

@@ -1,0 +1,9 @@
+I might have switched the names F732a2 and F732a3 sometime between 2021-09 and 2021-11
+
+First measurements of all three F732a since power cut.
+9 aug 2022 20:27:23 UTC: Moved DYT thermal camera that was standing on top of 732a2 and in front of F7001 away from the references.
+2022-08-09T22:49 UTC: Switched ks3458a1-dcv-log.py from 10s between samples to 0s
+9 aug 2022 22:57:56 UTC: Unplugged F7001 from wall power (already changed F7001 -> F7001bat)
+~2022-08-10T02:48 UTC: F7001bat -> F732a2 measured some ghost voltages < -1 V (removed)
+2022-08-10T03:28 UTC: Toggled in cal light on for all three F732a.
+
